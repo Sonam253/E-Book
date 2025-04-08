@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Registration</title>
+    <link rel="stylesheet" href="user_registration.css">
+</head>
+<body>
+    <div class="header">
+        <h1>E-Books</h1>
+        <div class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="admin.html">Admin</a>
+            <a href="user.html">User</a>
+        </div>
+    </div>
+    
+    <div class="container">
+        <h2>User Registration</h2>
+        
+        <form id="registrationForm" action="#" method="post">
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" placeholder="Enter your name">
+            </div>
+            
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email">
+            </div>
+            
+            <div class="form-group">
+                <label for="phone">Phone Number</label>
+                <input type="tel" id="phone" name="phone" placeholder="Enter your phone number">
+            </div>
+            
+            <div class="form-group">
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" placeholder="Create a password">
+            </div>
+            
+            <button type="submit" class="submit-btn">Register</button>
+        </form>
+    </div>
+
+    <script src="user_registration.js"></script>
+</body>
+</html>

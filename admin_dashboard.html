@@ -1,55 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Admin Dashboard - E-Books</title>
-  <link rel="stylesheet" href="admin-dashboard.css">
+  <link rel="stylesheet" href="admin_dashboard.css" />
 </head>
 <body>
-  <div id="main-container">
-    <!-- Header Section -->
-    <header id="admin-header">
-      <div class="logo">
-        <h1>E-Books</h1>
-      </div>
-      <nav class="admin-nav">
-        <ul>
-          <li><a href="#" class="active">Admin</a></li>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">Add Genres</a></li>
-          <li><a href="#">View Genres</a></li>
-          <li><a href="#">Add Book</a></li>
-          <li><a href="#">View Books</a></li>
-          <li><a href="#">Booking History</a></li>
-          <li><a href="#">Logout</a></li>
-        </ul>
-      </nav>
-    </header>
+  <header>
+    <div class="logo">E-Books</div>
+    <nav>
+      <a href="#">Admin Home</a>
+      <a href="#">Add Genres</a>
+      <a href="#">View Genres</a>
+      <a href="#">Add Book</a>
+      <a href="#">View Books</a>
+      <a href="#">Booking History</a>
+      <a href="index.html">Logout</a>
+    </nav>
+  </header>
 
-    <!-- Main Content Area -->
-    <main id="admin-content">
-      <div class="dashboard-welcome">
-        <h2>Welcome to Admin Dashboard</h2>
-        <p>Manage your e-books collection and system settings from here.</p>
-      </div>
-      
-      <!-- Dashboard Widgets -->
-      <div class="dashboard-widgets">
-        <div class="widget">
-          <h3>Total Books</h3>
-          <p class="count">1,245</p>
-        </div>
-        <div class="widget">
-          <h3>New Orders</h3>
-          <p class="count">24</p>
-        </div>
-        <div class="widget">
-          <h3>Active Users</h3>
-          <p class="count">356</p>
-        </div>
-      </div>
-    </main>
-  </div>
+  <main>
+    <div class="admin-bg"></div>
+  </main>
+
+  <script src="admin_dashboard.js"></script>
 </body>
 </html>

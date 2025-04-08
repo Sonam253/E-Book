@@ -12,6 +12,7 @@ body {
   display: flex;
   flex-direction: column;
   height: 100%;
+  background-image: url('https://wallpapercave.com/wp/wp2508260.jpg');
 }
 
 #header {
@@ -67,17 +68,19 @@ body {
 }
 
 #login-container {
-  background-color: rgb(208, 151, 151);
+  background-color:lightsalmon;
   width: 350px;
   padding: 30px;
   border-radius: 5px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  font-family: 'Gill Sans';
 }
 
 #login-container h2 {
   text-align: center;
   margin-bottom: 25px;
-  color: #517ca7;
+  color:black;
+  font-family: 'Gill Sans';
 }
 
 .form-group {
@@ -115,5 +118,5 @@ body {
 }
 
 .login-btn:hover {
-  background-color: #34495e;
+  background-color: lightblue;
 }

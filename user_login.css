@@ -1,0 +1,71 @@
+/* Reset and base styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Gill Sans';
+  background-image: url('https://png.pngtree.com/thumb_back/fh260/back_our/20190622/ourmid/pngtree-creative-synthesis-simple-book-education-and-training-background-image_219497.jpg'); /* Replace with your image file or URL */
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  height: 100vh;
+}
+
+/* Header styles */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #c96925;
+  padding: 1rem 2rem;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color:black;
+}
+
+nav a {
+  color:  rgb(6, 6, 129);
+  margin-left: 1.5rem;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Main section */
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: calc(100vh - 70px); /* Adjust for header height */
+}
+
+.category-buttons {
+  display: flex;
+  gap: 2rem;
+}
+
+.category-buttons button {
+  font-size: 1.2rem;
+  padding: 1rem 2rem;
+  background-color:rgb(124, 124, 234);
+  color: #000;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: transform 0.2s ease, background-color 0.3s;
+}
+
+.category-buttons button:hover {
+  background-color:lightblue;
+  transform: scale(1.05);
+}

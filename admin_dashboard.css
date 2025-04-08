@@ -1,0 +1,112 @@
+/* Reset and Base Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background-color: #f5f5f5;
+  color: #333;
+}
+
+#main-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+
+
+
+/* Header Styles */
+#admin-header {
+  background-color: #2c3e50;
+  color: white;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.logo h1 {
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+
+.admin-nav ul {
+  display: flex;
+  list-style: none;
+}
+
+.admin-nav li {
+  margin-left: 1.5rem;
+}
+
+.admin-nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  padding: 0.5rem 0.8rem;
+  border-radius: 4px;
+  transition: all 0.3s ease;
+}
+
+.admin-nav a:hover {
+  background-color: #34495e;
+}
+
+.admin-nav a.active {
+  background-color: #3498db;
+}
+
+/* Main Content Styles */
+#admin-content {
+  flex: 1;
+  padding: 2rem;
+}
+
+.dashboard-welcome {
+  background-color: white;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+  margin-bottom: 2rem;
+}
+
+.dashboard-welcome h2 {
+  color: #2c3e50;
+  margin-bottom: 0.5rem;
+}
+
+.dashboard-welcome p {
+  color: #7f8c8d;
+}
+
+.dashboard-widgets {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1.5rem;
+}
+
+.widget {
+  background-color: white;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+  text-align: center;
+}
+
+.widget h3 {
+  color: #7f8c8d;
+  margin-bottom: 1rem;
+  font-size: 1.1rem;
+}
+
+.widget .count {
+  color: #2c3e50;
+  font-size: 2rem;
+  font-weight: 700;
+}
